@@ -1,0 +1,26 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml:4:5-9:19
+activity#com.feature.videoplayer.mobile.ui.activity.VideoPlayerActivity
+ADDED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml:5:9-8:40
+	android:exported
+		ADDED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml:8:13-37
+	android:configChanges
+		ADDED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml:7:13-90
+	android:name
+		ADDED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml:6:13-60
+uses-sdk
+INJECTED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml
+INJECTED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ronakukani/Documents/AndroidStudioProjects/OTTSample/feature/videoplayer/src/main/AndroidManifest.xml

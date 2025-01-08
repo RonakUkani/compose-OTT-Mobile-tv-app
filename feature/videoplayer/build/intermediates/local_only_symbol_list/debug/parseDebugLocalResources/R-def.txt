@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_forward
+drawable ic_full_screen
+drawable ic_full_screen_exit
+drawable ic_pause
+drawable ic_play
+drawable ic_refresh
+drawable ic_replay
+id main
+layout activity_video_player

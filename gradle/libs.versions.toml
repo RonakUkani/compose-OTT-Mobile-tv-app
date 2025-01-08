@@ -1,0 +1,83 @@
+[versions]
+agp = "8.5.1"
+hiltAndroidGradlePlugin = "2.49"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+appcompat = "1.7.0"
+material = "1.12.0"
+jetbrainsKotlinJvm = "1.9.0"
+ktorClientVersion = "2.3.8"
+kotlinxSerializationVersion = "1.6.3"
+constraintlayout = "2.1.4"
+navigationFragmentKtx = "2.7.7"
+navigationUiKtx = "2.7.7"
+lifecycleRuntimeKtx = "2.8.4"
+activityCompose = "1.9.1"
+composeBom = "2024.04.01"
+leanback = "1.0.0"
+glide = "4.11.0"
+navigationComposeVersion = "2.7.7"
+composeMaterial = "1.4.2"
+hilt = "2.49"
+hilt-compose = "1.2.0"
+coilVersion = "2.4.0"
+activity = "1.9.1"
+exoplayer = "1.4.0"
+tvCompose = "1.0.0"
+fragmentVersion = "1.8.2"
+runtimeCompose = "2.8.4"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+hilt-android-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hiltAndroidGradlePlugin" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+ktor-client-android = { group = "io.ktor", name = "ktor-client-android", version.ref = "ktorClientVersion" }
+ktor-client-json = { group = "io.ktor", name = "ktor-client-json-jvm", version.ref = "ktorClientVersion" }
+ktor-client-serialization = { group =  "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktorClientVersion"}
+ktor-client-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktorClientVersion" }
+ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktorClientVersion" }
+kotlinx-serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationVersion" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationComposeVersion" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-material = { group = "androidx.compose.material", name = "material", version.ref = "composeMaterial" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-leanback = { group = "androidx.leanback", name = "leanback", version.ref = "leanback" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+hilt-core = { group = "com.google.dagger", name = "hilt-core", version.ref = "hilt" }
+hilt-core-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+hilt-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-compose" }
+hilt-compiler = { group = "androidx.hilt", name = "hilt-compiler", version = "1.2.0" }
+coil = {group = "io.coil-kt", name = "coil-compose", version.ref = "coilVersion"}
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "exoplayer" }
+exoplayer-ui = { group = "androidx.media3", name = "media3-ui", version.ref = "exoplayer" }
+exoplayer-session = { group = "androidx.media3", name = "media3-session", version.ref = "exoplayer" }
+exoplayer-dash = { group = "androidx.media3", name = "media3-exoplayer-dash", version.ref = "exoplayer" }
+exoplayer-hls = { group = "androidx.media3", name = "media3-exoplayer-hls", version.ref = "exoplayer" }
+exoplayer-smoothstreaming = { group = "androidx.media3", name = "media3-exoplayer-smoothstreaming", version.ref = "exoplayer" }
+tv-material-compose = {group = "androidx.tv", name = "tv-material", version.ref = "tvCompose" }
+fragment-ktx =  {group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentVersion" }
+androidx-ui-android = { group = "androidx.compose.ui", name = "ui-android" }
+lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "runtimeCompose" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

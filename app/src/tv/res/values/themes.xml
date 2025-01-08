@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.tv" parent="@style/Theme.Leanback">
+        <item name="browseRowsMarginTop">200dp</item>
+        <item name="android:windowBackground">@color/default_background</item>
+    </style>
+</resources>
